@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?> 
+
+<!-- General board description: vendor, name, etc. -->
+<board schema_version="2.1" vendor="miner.ebang.com.cn" name="ebaz4205" display_name="EBAZ4205 Development Board" url="http://miner.ebang.com.cn" preset_file="preset.xml">
+
+	<!-- Image of the board -->
+	<images>
+		<image name="ebaz4205.jpg" display_name="EBAZ4205 Development Board" sub_type="board">
+      		<description>EBAZ4205 Development Board</description>
+    	</image>
+  	</images>
+	
+	<!-- Board PCB revision -->
+	<compatible_board_revisions>
+		<revision id="1">1.0</revision>
+	</compatible_board_revisions>
+
+	<!-- Board file revision -->
+  	<file_version>1.0</file_version>
+
+	<!-- Board description -->
+  	<description>EBAZ4205 is mining board used in Ebang Ebit E9+ bitcoin miner machine. This board features 256MB DDR3 memory, 128MB NAND Flash memory, 10/100MBit Ethernet and speed grade -1 Zynq 7010.</description>
+
+	<!-- Information about board components: fpga part, interfaces, etc. -->
+	<components>
+	
+		<!-- FPGA part -->
+    	<component name="part0" display_name="EBAZ4205" type="fpga" part_name="xc7z010clg400-1" pin_map_file="part0_pins.xml" vendor="xilinx" spec_url="www.xilinx.com">
+      		<description>FPGA part on the board</description>
+      	
+			<!-- Associated FPGA interfaces and IP cores -->
+			<interfaces>
+
+				<!-- Zynq 7000 processing system -->
+		    	<interface mode="master" name="ps7_fixedio" type="xilinx.com:display_processing_system7:fixedio_rtl:1.0" of_component="ps7_fixedio" preset_proc="ps7_preset"> 
+		      		<preferred_ips>
+		        		<preferred_ip vendor="xilinx.com" library="ip" name="processing_system7" order="0"/>
+		      		</preferred_ips>
+		    	</interface>
+
+				<!-- User LEDs: Red and Green (LED6) -->
+				<interface mode="master" name="leds_2bits" type="xilinx.com:interface:gpio_rtl:1.0" of_component="leds_2bits" preset_proc="leds_2bits_preset">
+					<preferred_ips>
+						<preferred_ip vendor="xilinx.com" library="ip" name="axi_gpio" order="0"/>
+					</preferred_ips>
+					<port_maps>
+						<port_map logical_port="TRI_O" physical_port="leds_2bits_tri_o" dir="out" left="1" right="0"> 
+							<pin_maps>
+								<pin_map port_index="0" component_pin="leds_2bits_tri_o_0"/> 
+								<pin_map port_index="1" component_pin="leds_2bits_tri_o_1"/> 
+							</pin_maps>
+						</port_map>
+					</port_maps>
+				</interface>
+
+		  	</interfaces>
+    	</component>
+
+    	<!-- Zynq 7000 processing system -->
+    	<component name="ps7_fixedio" display_name="PS7 fixed IO" type="chip" sub_type="fixed_io" major_group=""/>	
+
+		<!-- User LEDs: Red and Green (LED6) -->
+		<component name="leds_2bits" display_name="LEDs" type="chip" sub_type="led" major_group="General Purpose Input or Output">
+			<description>LEDs, Active Low</description>
+		</component>
+
+	</components>
+
+	<!-- Board jtag chains for all fpga parts -->
+  	<jtag_chains>
+
+		<!-- Board jtag chains for part0 -->
+    	<jtag_chain name="chain1">
+      		<position name="0" component="part0"/>
+    	</jtag_chain>
+
+  	</jtag_chains>
+
+	<!-- Connections between component interfaces and physical pins described in part0_pins.xml -->
+	<connections>	
+
+		<!-- User LEDs: Red and Green (LED6) -->
+		<connection name="part0_leds_2bits" component1="part0" component2="leds_2bits">
+			<connection_map name="part0_leds_2bits_1" c1_st_index="0" c1_end_index="1" c2_st_index="0" c2_end_index="1"/>
+		</connection>
+
+  	</connections>
+
+</board>
