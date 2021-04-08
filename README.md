@@ -12,11 +12,12 @@ EBAZ4205 is mining board used in Ebang Ebit E9+ bitcoin miner machine. This boar
 - [EBAZ4205 Schematics](Documents/EBAZ4205_schematic.pdf)
 - [EBAZ4205 KiCad Project] TBU
 
-## Board files and constraints
+## Board files
 - [EBAZ4205 Board files](Board_files/)
-- [EBAZ4205 XDC Constraints] TBU
 
 ## Reference designs
+- [EBAZ4205 Base Reference Design] TBU
+- [EBAZ4205 XDC Constraints] TBU
 - [EBAZ4205 Petalinux 2020.1 BSP] TBU
 
 ## Mechanical drawings
