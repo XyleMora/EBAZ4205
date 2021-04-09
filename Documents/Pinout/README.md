@@ -33,7 +33,7 @@ EBAZ4205 pinout (seen looking into the connector)
 |19 |DATA1-19   |         |
 |20 |DATA1-20   |         |
 
-#### Connector DATA2 
+### Connector DATA2 
 |Pin|Signal Name|Zynq pin |
 |---|-----------|---------|
 |1  |VCC-DATA2  |         |
