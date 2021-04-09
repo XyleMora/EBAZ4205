@@ -81,4 +81,7 @@ EBAZ4205 pinout (seen looking into the connector)
 |19 |DATA3-19   |         |
 |20 |DATA3-20   |         |
 
-## 10/100 Ethernet PHY
+# JTAG
+# UART
+# SD Card
+# 10/100 Ethernet PHY
