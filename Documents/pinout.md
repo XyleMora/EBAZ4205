@@ -1,11 +1,12 @@
 # EBAZ4205
 
+## User I/O DATA Connectors 
 EBAZ4205 provides three right-angle header connectors (2x10pin) that include 14 user I/O, VIN and ground signals as shown in picture. 
 
 ![pinout_io](./pinout_io.png)<br/>
 EBAZ4205 pinout (seen looking into the connector)
 
-## Connector DATA1 
+### Connector DATA1 
 |Pin|Signal Name|Zynq pin |
 |---|-----------|---------|
 |1  |VCC-DATA1  |         |
@@ -29,7 +30,7 @@ EBAZ4205 pinout (seen looking into the connector)
 |19 |DATA1-19   |         |
 |20 |DATA1-20   |         |
 
-## Connector DATA2 
+### Connector DATA2 
 |Pin|Signal Name|Zynq pin |
 |---|-----------|---------|
 |1  |VCC-DATA2  |         |
@@ -53,7 +54,7 @@ EBAZ4205 pinout (seen looking into the connector)
 |19 |DATA2-19   |         |
 |20 |DATA2-20   |         |
 
-## Connector DATA3
+### Connector DATA3
 |Pin|Signal Name|Zynq pin |
 |---|-----------|---------|
 |1  |VCC-DATA3  |         |
