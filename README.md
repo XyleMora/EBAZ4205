@@ -7,6 +7,7 @@ EBAZ4205 is mining board used in Ebang Ebit E9+ bitcoin miner machine. This boar
 ## Documentation
 - [Xilinx Zynq Datasheet](https://www.xilinx.com/support/documentation/data_sheets/ds187-XC7Z010-XC7Z020-Data-Sheet.pdf)
 - [Xilinx Zynq Technical Reference Manual](https://www.xilinx.com/support/documentation/user_guides/ug585-Zynq-7000-TRM.pdf)
+- [EBAZ4205 Getting Started] TBU
 - [EBAZ4205 Pinout](Documents/pinout.md)
 
 ## Schematics
