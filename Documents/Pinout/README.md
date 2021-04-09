@@ -84,4 +84,5 @@ EBAZ4205 pinout (seen looking into the connector)
 # JTAG
 # UART
 # SD Card
+# NAND Flash
 # 10/100 Ethernet PHY
