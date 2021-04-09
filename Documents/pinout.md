@@ -2,6 +2,8 @@
 
 ## User I/O
 
+### User Push Buttons
+### User LEDs
 ### DATA Headers (2x10pin)
 EBAZ4205 provides three right-angle header connectors (2x10pin) that include 14 user I/O, VIN and ground signals as shown in picture. 
 
@@ -79,3 +81,5 @@ EBAZ4205 pinout (seen looking into the connector)
 |18 |DATA3-18   |         |
 |19 |DATA3-19   |         |
 |20 |DATA3-20   |         |
+
+### 10/100 Ethernet PHY
