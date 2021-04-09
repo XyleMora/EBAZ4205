@@ -2,7 +2,7 @@
 
 EBAZ4205 provides three right-angle header connectors (2x10pin) that include 14 user I/O, VIN and ground signals as shown in picture. 
 
-![pinout_io](Documents/pinout_io.png)<br/>
+![pinout_io](./pinout_io.png)<br/>
 EBAZ4205 pinout (seen looking into the connector)
 
 ## Connector DATA1 
