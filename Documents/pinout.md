@@ -24,7 +24,7 @@ EBAZ4205 pinout (seen looking into the connector)
 |9  |DATA1-9    |         |
 |10 |NC         |         |
 |11 |DATA1-11   |         |
-|12 |DATA1-12   |         |
+|12 |GND        |         |
 |13 |DATA1-13   |         |
 |14 |DATA1-14   |         |
 |15 |DATA1-15   |         |
@@ -48,7 +48,7 @@ EBAZ4205 pinout (seen looking into the connector)
 |9  |DATA2-9    |         |
 |10 |NC         |         |
 |11 |DATA2-11   |         |
-|12 |DATA2-12   |         |
+|12 |GND        |         |
 |13 |DATA2-13   |         |
 |14 |DATA2-14   |         |
 |15 |DATA2-15   |         |
@@ -72,7 +72,7 @@ EBAZ4205 pinout (seen looking into the connector)
 |9  |DATA3-9    |         |
 |10 |NC         |         |
 |11 |DATA3-11   |         |
-|12 |DATA3-12   |         |
+|12 |GND        |         |
 |13 |DATA3-13   |         |
 |14 |DATA3-14   |         |
 |15 |DATA3-15   |         |
