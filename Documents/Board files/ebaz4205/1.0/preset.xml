@@ -13,6 +13,14 @@
 				<user_parameter name="CONFIG.PCW_SD0_SD0_IO" value="MIO 40 .. 45"/>
 				<user_parameter name="CONFIG.PCW_NAND_PERIPHERAL_ENABLE" value="1"/>
 				<user_parameter name="CONFIG.PCW_NAND_GRP_D8_ENABLE" value="0"/>
+				<user_parameter name="CONFIG.PCW_NAND_CYCLES_T_AR" value="15" />
+				<user_parameter name="CONFIG.PCW_NAND_CYCLES_T_CLR" value="15" />
+				<user_parameter name="CONFIG.PCW_NAND_CYCLES_T_RC" value="30" />
+				<user_parameter name="CONFIG.PCW_NAND_CYCLES_T_REA" value="5" />
+				<user_parameter name="CONFIG.PCW_NAND_CYCLES_T_RR" value="25" />
+				<user_parameter name="CONFIG.PCW_NAND_CYCLES_T_WC" value="30" />
+				<user_parameter name="CONFIG.PCW_NAND_CYCLES_T_WP" value="15" />
+				<user_parameter name="CONFIG.PCW_NAND_NAND_IO" VALUE="MIO 0 2.. 14" />
 				<user_parameter name="CONFIG.PCW_ENET0_PERIPHERAL_ENABLE" value="1"/>
 				<user_parameter name="CONFIG.PCW_ENET0_ENET0_IO" value="EMIO"/>
 				<user_parameter name="CONFIG.PCW_ENET0_GRP_MDIO_ENABLE" value="1"/>
