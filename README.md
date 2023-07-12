@@ -20,7 +20,7 @@ Forum link changed to Telegram group dedicated to board EBAZ4205
 
 ## Documentation
 - [Xilinx Zynq Datasheet](https://www.xilinx.com/support/documentation/data_sheets/ds187-XC7Z010-XC7Z020-Data-Sheet.pdf)
-- [Xilinx Zynq Technical Reference Manual](https://www.xilinx.com/support/documentation/user_guides/ug585-Zynq-7000-TRM.pdf)
+- [Xilinx Zynq Technical Reference Manual](https://docs.xilinx.com/r/en-US/ug585-zynq-7000-SoC-TRM)
 - [EBAZ4205 Getting Started](Documents/Getting_Started_with_the_Zynq.pdf)
 - [EBAZ4205 Pinout] TBU
 
