@@ -6,7 +6,9 @@ EBAZ4205 is mining board used in Ebang Ebit E9+ bitcoin miner machine. This boar
 Added project files to reproduce the design.
 The basic functionality of the design allows you to turn on and turn off the red LED at the press of the button S2 (by interruption without loading the processor by polling).
 Included file in C language with comments for those wishing to modify the software part of the project.
-The RTL module included in the design is controlled by software and in turn controls the output to the LEDs. The red is connected to the button, and the green one just blinks constantly.
+The RTL module included in the design is controlled by software and in turn controls the output to the LEDs. The red is connected to the button, and the green one just blinks constantly. 
+You can deploy a project with .tcl file and modify the RTL module for its functionality, the clock is already provided by the PS part of the SoC.
+For a quick test, a ready-made BOOT file is also attached.
 And also available the Terminal and Ethernet connections.
 
 A fairly detailed manual Getting_Started_with_the_Zynq.pdf has been added as EBAZ4205 Getting Started, Add more Schematics,
